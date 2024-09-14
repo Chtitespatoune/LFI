@@ -49,24 +49,24 @@ header {
   font-weight: 700;
 }
 
-main{
-    background: linear-gradient(180deg, #FF79DA -12.44%, #9356DC 75.93%);
-    background-attachment: fixed;
-    background-size: cover;
-    border: #7f21d6 1px solid;
-    border-radius: 10px;
-    color: #380568;
-    margin-top: 10px;
+main {
+  background: linear-gradient(180deg, #ff79da -12.44%, #9356dc 75.93%);
+  background-attachment: fixed;
+  background-size: cover;
+  border: #7f21d6 1px solid;
+  border-radius: 10px;
+  color: #380568;
+  margin-top: 10px;
 }
 
-.texte_intro{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.texte_intro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
-.texte_intro p{
-    margin: auto;
-    padding-bottom: 3.5px;
+.texte_intro p {
+  margin: auto;
+  padding-bottom: 3.5px;
 }
