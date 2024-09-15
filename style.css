@@ -1,6 +1,6 @@
 /* Générale*/
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #f66980;
   color: #20134b;
 }
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", cursive;
+  font-family: "Raleway", cursive;
 }
 
 /*Header*/
