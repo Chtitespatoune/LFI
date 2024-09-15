@@ -55,18 +55,12 @@ header {
 
 /* navigation*/
 nav {
-
   width: 100%;
   background-color: #ab3189;
-  position: fixed;
-  bottom: 0;
+  margin-top: 2px;
   height: 100px;
   overflow: hidden;
-
-
-}
-
-.bouton {
+  box-shadow: 6px 6px 25px #20134b;
   border: #20134b 2px solid;
   border-radius: 15px;
 }
@@ -84,17 +78,14 @@ nav {
   width: 30%;
   display: grid;
   grid-template-columns: 3fr 0fr 1fr;
-  grid-template-rows: 1fr 2fr 1fr;
   justify-content: center;
   align-items: center;
-  font-size: 0.8em;
+  font-size: 0.9em;
   color: #20134b;
+  justify-items: center;
   padding-left: 2%;
+  font-weight: 600;
 }
-
-
-
-
 
 /* corps de la première page*/
 main {
@@ -125,4 +116,77 @@ main {
   flex-direction: column;
   padding-left: 3%;
   padding-right: 5%;
+}
+
+.img_legis{
+  width: 50%;
+  height: 50%;
+}
+
+
+
+
+
+/*footer*/
+.site-footer {
+  background-color: #5b213f;
+  margin-top: 2px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+  border-radius: 15px;
+}
+
+.container {
+  padding-left: 2%;
+  padding-bottom: 3px;
+  
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 50%;
+}
+
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+.site-footer hr.small {
+  margin: 20px 0;
+}
+
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: #737373;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links.inline li {
+  display: inline-block;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+
+.copyright-text {
+  margin: 0;
 }
