@@ -1,10 +1,12 @@
+/* Générale*/
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f66980;
   color: #20134b;
 }
+
 a {
-  color: #34b7a7;
+  color: #540b76;
   text-decoration: none;
   transition: transform 300ms ease-in-out;
 }
@@ -12,7 +14,7 @@ a {
 a:hover {
   color: #453cbf;
   text-decoration: none;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 h1,
@@ -24,6 +26,7 @@ h6 {
   font-family: "Raleway", cursive;
 }
 
+/*Header*/
 header {
   border: #7f21d6 1px solid;
   background-image: url(../Castets/img/th.jpeg);
@@ -39,6 +42,7 @@ header {
   justify-content: center;
   height: 50px;
 }
+
 .introduction {
   display: flex;
   justify-content: center;
@@ -49,6 +53,47 @@ header {
   font-weight: 700;
 }
 
+/* navigation*/
+nav {
+
+  width: 100%;
+  background-color: #ab3189;
+  position: fixed;
+  bottom: 0;
+  height: 100px;
+  overflow: hidden;
+
+
+}
+
+.bouton {
+  border: #20134b 2px solid;
+  border-radius: 15px;
+}
+
+.bouton div {
+  display: flex;
+  flex-direction: row;
+}
+
+.bouton a {
+  width: 30%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  color: #20134b;
+  padding-left: 2%;
+}
+
+
+
+
+
+
+/* corps de la première page*/
 main {
   background: linear-gradient(180deg, #ff79da -12.44%, #9356dc 75.93%);
   background-attachment: fixed;
@@ -66,7 +111,15 @@ main {
   align-items: center;
   text-align: center;
 }
+
 .texte_intro p {
   margin: auto;
   padding-bottom: 3.5px;
+}
+
+.commençons {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3%;
+  padding-right: 5%;
 }
